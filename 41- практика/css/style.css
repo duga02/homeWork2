@@ -1,0 +1,27 @@
+
+body {
+    font-family: sans-serif;
+}
+
+fieldset {
+    width: 244px;
+    border-radius: 5px;
+}
+
+
+input {
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 100px;
+    width: 200px;
+}
+
+.yes {
+    font-size: 10px;
+    display: block;
+    
+}
