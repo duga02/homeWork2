@@ -1,0 +1,39 @@
+
+body {
+    font-family: sans-serif;
+}
+
+fieldset {
+    width: 240px;
+    border-radius: 5px;
+}
+
+.label {
+    display: block;
+    
+}
+
+.inp {
+    width: 190px;
+}
+
+
+input {
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 15px;
+    max-height: 100px;
+}
+
+.yes {
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+button {
+    cursor: pointer;
+}
