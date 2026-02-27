@@ -1,0 +1,46 @@
+html {
+    font-family: sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.conteiner {
+    max-width: 1320px;
+    padding: 20px 15px;
+    margin: 0 auto;
+    border-bottom: 1px solid #97919188;
+}
+
+.flex-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cv {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 12px;
+}
+
+.nav {
+    color: black;
+}
+
+.tel {
+    color: black;
+    text-decoration: none;
+}
