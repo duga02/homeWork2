@@ -7,6 +7,10 @@ body * {
     box-sizing: border-box;
 }
 
+body {
+    owerflow-x: hidden;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0px;
 }
@@ -121,4 +125,5 @@ article {
     border: none;
     border-radius: 50%;
     cursor: pointer;
+
 }
