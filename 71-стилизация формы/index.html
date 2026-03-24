@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>формы</title>
+    <link rel="stylesheet" href="css/nomalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form class="form">
+        <fieldset class="form-group">
+            <legend class="form-group-title">Ваши личные данные</legend>
+            <label for="name" class="label">Ваше имя</label>
+            <input id="name" class="input"  type="text" placeholder="Имя" name="name" required>
+
+            <label for="age" class="label">Ваш возраст</label>
+            <input id="age" class="input"  type="number" placeholder="возраст" name="age" required>
+
+            <label for="phone" class="label">Ваш номер телефона</label>
+            <input id="phone" class="input"  type="tel" placeholder="номер телефона" name="tel" required>
+
+            <label for="email" class="label">Ваша почта</label>
+            <input id="email" class="input"  type="email" placeholder="почта" name="email" required>
+        </fieldset>
+
+        <fieldset class="form-group">
+            <label class="label" for="message">Сообщение</label>
+            <textarea disabled class="textarea" name="message" id="message" placeholder="Ваше Сообщение"></textarea>
+            <label class="label checkbox-label">
+                <input class="checkbox" type="checkbox" name="checkbox" required>
+                <span class="checkbox-text">Я принимаю правила</span>
+                
+            </label>
+        </fieldset>
+        <button class="button">Отпарвить</button>
+    </form>
+</body>
+</html>
